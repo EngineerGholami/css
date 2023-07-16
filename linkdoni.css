@@ -1,0 +1,151 @@
+/*
+Theme Name: 821
+Theme URI: http://avazak.ir
+Author: mohsen
+Author mail: http://www.info@avazak.ir
+Seo by: avazak.ir
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {height:100%;margin:0px;padding:0px;}
+body {text-align:right;color:#000;font: 11px Byekan,B yekan,Tahoma;padding:0px;margin:0px;background-color:#f0f1ec;direction:rtl;}
+
+A, A:visited{color:#000;text-decoration:none;}
+A:hover{color:#d74a36;text-decoration:none;}
+
+img {max-width:100%;height:auto;border:0px;}
+
+@font-face {
+font-family: 'Byekan';
+src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6-8 */
+url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('../fonts/BYekan.ttf') format('truetype');  /* Saf3-5, Chrome4+, FF3.5, Opera 10+ */
+font-style:normal;
+font-weight:700;
+}
+
+::selection {background:#d74a36;color:#fff;}
+::-moz-selection {background:#d74a36;color:#fff;}
+
+#Avazak {width:800px;margin:15px auto 0 auto;padding:0px;}
+
+#headerbox {width:100%;background:#33363b url("image/821-2.png")repeat-x bottom;margin:0px;padding:0px;text-align:right;}
+#header {width:1200px;margin:0 auto;}
+#header .h1 {font-size:34px;padding:20px 0;color:#f0f1ec;margin:0px;}
+#header .desc {font-size:13px;color:#82b46b;margin-bottom:20px;}
+
+#navbar {width:1200px;margin:0 auto;height:60px;line-height:60px;color:#536a7c;padding:0px;font-size:13px;}
+#navbar .home a, #navbar .home a:visited {color:#fff;padding:5px 15px;background-color:#d74a36;}
+#navbar a, #navbar a:visited {color:#fff;padding:5px 15px;background-color:#22222a;}
+#navbar a:hover {background-color:#d74a36;}
+#navbar .right {float:right;width:60%;text-align:right;}
+#navbar .left {float:left;width:35%;text-align:left;margin-top:-80px}
+#navbar .left input[type="text"] {height:30px;background-color:#90cde9;color:#000;border:0px;font:13px;margin-top:17px;border-top-right-radius:90px;border-bottom-right-radius:90px;padding:0 5px;width:100%;}
+#navbar .left input[type="button"], #navbar .left input[type="submit"] {height:30px;background:#d74a36 url("image/821-10.png")no-repeat center;padding:30px;border:0px;border-radius:90px;}
+
+#content {width:1040px;float:right;margin:0px;}
+
+#bodyposts {float:left;text-align:right;width:815px;overflow:hidden;margin:0px;padding:0px;}
+
+.post {padding:0px;margin-bottom:15px;background-color:#fff;border:solid #e2e2e2 1px;}
+
+.post .title {padding:10px;margin:0px;color:#fff;font-size:13px;background-color:#33383c;}
+.post .title a, .post .title a:visited {color:#fff;}
+.post .title a:hover {color:#d74a36;}
+
+.post .Context {font-size:12px;font-family:tahoma;line-height:30px;margin:10px;overflow:hidden;}
+.post .Context a, .post .Context a:visited {color:#d74a36;}
+.post .Context a:hover {color:#000;}
+
+.Context input[type="submit"] {height:27px;background-color:#d74a36;border:solid 1px #b72d1f;color:#fff;font-family:tahoma;}
+.Context input[type="text"],.Context input[type="password"] {width:50%;height:27px;background-color:#faf9f5;border:solid 1px #e3e2de;}
+
+.post .date {clear:both;color:#fff;background-color:#e2e2e2;margin:0px;padding:0px;font-family:tahoma;font-size:12px;height:25px;line-height:25px;text-align:center;}
+.post .date a, .post .date a:visited {color:#fff;}
+.post .date a:hover {color:#000;}
+.post .date .day {background-color:#d74a36;width:34%;display:inline-block;}
+.post .date .time {background-color:#82b46b;width:10%;display:inline-block;}
+.post .date .author {background-color:#58caec;width:28.77%;display:inline-block;}
+.post .date .comment {background-color:#fb960a;width:25%;display:inline-block;}
+.post .date .more {background-color:#90cde9;width:25%;display:inline-block;float:left;}
+
+.post .meta {background-color:#f1f1f1;font-size:13px;border:1px solid #e2e2e2;margin:10px;padding:10px;}
+.post .meta a, .post .meta a:visited {color:#58caec;}
+.post .meta a:hover {color:#33363b;}
+
+
+#sidebar-r {float:right;width:200px;margin:0px;padding:0px;}
+#sidebar-l {float:left;width:200px;margin:0px;padding:0px;}
+
+.side {margin:0 0 15px 0;text-align:right;background-color:#fff;border:1px solid #e2e2e2;padding:0px;color:#000;overflow:hidden;}
+.h3 {height:40px;line-height:40px;color:#fff;background-color:#33383c;border-bottom:3px solid #d74a36;text-align:right;margin:0px;padding-right:10px;}
+.context-side {overflow:hidden;font-size:12px;font-family:tahoma;line-height:25px;margin:7px;}
+.context-side a, .context-side a:visited {color:#000;}
+.context-side a:hover {color:#d74a36;}
+
+.side-img {float:right;width:53px;height:53px;margin:0px 0px 10px 6px;background-color:#faf9f5;border:solid 1px #e3e2de;padding:0px;text-align:center;}
+.side-img img {width:47px;height:47px;margin:3px 0px;padding:0px;border:0px;}
+.side-img a, .side-img a:visited {margin:0px;}
+
+.link {clear:both;background:url('821-9.png')no-repeat right;padding-right:15px;line-height:25px;}
+.link span {float:left;background-color:#e2e2e2;border-radius:4px;width:40px;font-size:11px;line-height:20px;text-align:center;color:#777;}
+
+#input input {width:100%;height:27px;background-color:#faf9f5;border:solid 1px #e3e2de;}
+#submit input,#submit2 input {width:60px;height:27px;background-color:#d74a36;border:solid 1px #b72d1f;color:#fff;font-family:tahoma;}
+#submit2 input {width:80px;}
+
+.commentlist {color:#000;background-color:#faf9f5;padding:10px;border-right:5px solid #58caec;margin-bottom:10px;}
+.commentlist a, .commentlist a:visited {color:#777;}
+.answer {background:#e3e2de;margin:20px 20px 0px 100px;padding:0 5px;line-height:25px;}
+
+.sendcomment {text-align:right;color:#000;background-color:#faf9f5;border:solid 1px #e3e2de;padding:10px;margin-bottom:20px;}
+.sendcomment input {width:200px;height:27px;background-color:#fff;border:1px solid #e2e2e2;color:#000;font-family:tahoma;}
+.sendcomment textarea {height:200px;width:400px;background-color:#fff;border:1px solid #e2e2e2;color:#000;font-family:tahoma;font-size:9pt;}
+.sendcomment input[type="checkbox"] {width:20px;}
+.sendcomment input[name="commentcap"] {width:110px;text-align:center;}
+
+.pagination {margin:40px;font-familt:tahoma;font-size:12px;text-align:center;color:#000;}
+.pagination a {padding:6px;background:#e2e2e2;color:#000;margin:0 2px;border:1px solid #c6c6c6;}
+.pagination a:hover {background:#33363b;color:#fff;margin:0 2px;}
+.current {padding:6px;background:#33363b;color:#fff;border:1px solid #33363b;}
+
+#footerbox1 {float:left;width:100%;background:#33363b url("image/821-2.png")repeat-x top;margin:0px;padding:20px 0;clear:both;}
+#about {width:970px;margin:0 auto;font-size:13px;color:#fff;}
+#about .logo {float:right;width:20%;}
+#about .logo img {border:5px solid #d74a36;border-radius:90px;}
+#about .logo img:hover{
+-moz-transition:all 0.2s ease-in-out;
+-o-transition:all 0.2s ease-in-out;
+-ms-transition:all 0.2s ease-in-out;	
+transition:all 0.2s ease-in-out;
+-ms-transform: rotate(270deg); /* IE 9 */
+-webkit-transform: rotate(350deg); /* Chrome, Safari, Opera */
+transform: rotate(40deg);max-width:100%;height:auto;
+}
+#about .text {text-align:right;float:left;width:78%;}
+
+#footerbox2 {float:left;width:100%;background:#22222a;margin:0px;padding:20px 0;clear:both;}
+#footerbox2 a, #footerbox2 a:visited {color:#d74a36;}
+#footerbox2 span {color:#82b46b;}
+
+
+@media screen and (max-width:970px) {
+#Avazak, #header, #navbar, #about, #content, #bodyposts, #sidebar-r, #sidebar-l {width:100%;}
+}
+@media screen and (max-width:800px) {
+#headerbox {text-align:center;}
+#navbar .right {float:none;width:100%;text-align:Center;}
+#navbar .left {display:none;width:0%;height:0%;}
+#about .text {float:left;width:50%;}
+}
+@media screen and (max-width:600px) {
+body {font-size:9px;}
+#navbar, .post .date {font-size:9px;}
+}
+@media screen and (max-width:400px) {
+body {font-size:7px;}
+#navbar, .post .date, #about {font-size:7.5px;text-align:center;}
+}
